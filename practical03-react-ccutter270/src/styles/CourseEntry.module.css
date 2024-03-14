@@ -1,0 +1,13 @@
+.description {
+  width: 40rem;
+}
+
+.current {
+  font-weight: bold;
+}
+
+.prereq {
+  font-weight: bold;
+  background: lightslategray;
+  color: white;
+}

@@ -1,0 +1,9 @@
+.article {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 50rem;
+}
+
+.timestamp {
+  font-size: 75%;
+}

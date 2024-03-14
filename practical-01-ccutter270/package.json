@@ -1,0 +1,16 @@
+{
+  "name": "practical-01-ccutter270",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CS312 Javascript practical exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Caroline Cutter <carolinecutter27@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}

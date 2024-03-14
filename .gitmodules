@@ -1,0 +1,3 @@
+[submodule "project-cutts"]
+	path = project-cutts
+	url = https://github.com/csci312a-s23/project-cutts.git

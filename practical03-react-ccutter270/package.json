@@ -1,0 +1,41 @@
+{
+  "name": "practical03-react",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CS312 Practical: Basic React application",
+  "author": "Caroline Cutter <ccutter@middlebury.edu>",
+  "contributors": [
+    "Christopher Andrews <candrews@middlebury.edu>",
+    "Michael Linderman <mlinderman@middlebury.edu>"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "lint": "eslint src",
+    "gradescope": "zip gradescope.zip setup.sh run_autograder grading.test.js jest.config.js",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "eslint": "^8.33.0",
+    "eslint-config-next": "13.1.6",
+    "eslint-config-prettier": "^8.6.0",
+    "husky": "^8.0.3",
+    "jest": "^29.4.2",
+    "jest-environment-jsdom": "^29.4.2",
+    "lint-staged": "^13.1.1",
+    "prettier": "^2.8.4"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md,json,jsx}": "prettier --write"
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1676655996362" clover="3.2.0">
+  <project timestamp="1676655996362" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3" elements="26" coveredelements="26" complexity="0" loc="15" ncloc="15" packages="1" files="1" classes="1"/>
+    <file name="index.js" path="/Users/carolinecutter/Desktop/cs312/practical02-test-ccutter270/index.js">
+      <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="20" type="stmt"/>
+      <line num="14" count="20" type="stmt"/>
+      <line num="17" count="20" type="stmt"/>
+      <line num="19" count="26" type="stmt"/>
+      <line num="22" count="26" type="cond" truecount="2" falsecount="0"/>
+      <line num="24" count="7" type="cond" truecount="3" falsecount="0"/>
+      <line num="27" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="31" count="19" type="cond" truecount="1" falsecount="0"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="35" count="26" type="stmt"/>
+      <line num="39" count="20" type="stmt"/>
+      <line num="42" count="20" type="stmt"/>
+      <line num="44" count="20" type="stmt"/>
+      <line num="48" count="20" type="stmt"/>
+    </file>
+  </project>
+</coverage>

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing FilmExplorer Snapshot test 1`] = `
+<div
+  class="FilmExplorer"
+>
+  <div
+    class="container"
+  >
+    <h1
+      class="title"
+    >
+      Film Explorer!
+    </h1>
+    <div
+      class="contents"
+    >
+      <input
+        placeholder="Search"
+        type="text"
+        value=""
+      />
+      <p>
+        order by 
+        <select
+          class="select"
+        >
+          <option
+            value="title"
+          >
+            Title
+          </option>
+          <option
+            value="release_date"
+          >
+            Date
+          </option>
+          <option
+            value="vote_average"
+          >
+            TMDB Rating
+          </option>
+        </select>
+         
+        <span
+          class="arrow"
+        >
+          ▲
+        </span>
+      </p>
+    </div>
+  </div>
+  <h2>
+    Loading...
+  </h2>
+</div>
+`;
